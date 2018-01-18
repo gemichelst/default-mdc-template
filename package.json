@@ -1,0 +1,22 @@
+{
+  "name": "default-template",
+  "version": "1.0.0",
+  "description": "default-template with material-components-web",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Matzat",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "autoprefixer-stylus": "0.14.x",
+    "axis": "^1.0.0",
+    "jeet": "^7.2.x",
+    "material-components-web": "^0.28.x",
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "rupture": "^0.7.x",
+    "stylus": "^0.54.x"
+  }
+}

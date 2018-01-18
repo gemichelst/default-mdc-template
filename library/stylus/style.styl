@@ -1,0 +1,31 @@
+@import '../../node_modules/jeet/styl'
+
+$blue = #3f7bfd
+$white = #FFFFFF
+$black = #000000
+
+
+section
+	left()
+
+center
+	center()
+
+body
+	max-width 940px
+	margin 10px
+
+html,body,h1,h2,h3,h4,h5,h6,dl
+	font-family "Roboto", sans-serif
+
+.col1
+	column(1/2, $cycle: 2)	
+	//background red
+	+ mobile()
+		slack()
+		column(1/1)
+		//background green
+
+.title
+	color $white
+	font-family "Roboto", sans-serif
